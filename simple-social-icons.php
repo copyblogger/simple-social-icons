@@ -111,9 +111,11 @@ class Simple_Social_Icons_Widget extends WP_Widget {
 			'rss'                    => '',
 			'snapchat'               => '',
 			'stumbleupon'            => '',
+			'tripadvisor'            => '',
 			'tumblr'                 => '',
 			'twitter'                => '',
 			'vimeo'                  => '',
+			'whatsapp'                => '',
 			'xing'                   => '',
 			'youtube'                => '',
 		) );
@@ -194,6 +196,10 @@ class Simple_Social_Icons_Widget extends WP_Widget {
 				'label'   => __( 'StumbleUpon URI', 'simple-social-icons' ),
 				'pattern' => $this->get_icon_markup( 'stumbleupon', __( 'StumbleUpon', 'simple-social-icons' ) ),
 			),
+			'tripadvisor' => array(
+				'label'   => __( 'TripAdvisor URI', 'simple-social-icons' ),
+				'pattern' => $this->get_icon_markup( 'tripadvisor', __( 'TripAdvisor', 'simple-social-icons' ) ),
+			),
 			'tumblr' => array(
 				'label'   => __( 'Tumblr URI', 'simple-social-icons' ),
 				'pattern' => $this->get_icon_markup( 'tumblr', __( 'Tumblr', 'simple-social-icons' ) ),
@@ -205,6 +211,10 @@ class Simple_Social_Icons_Widget extends WP_Widget {
 			'vimeo' => array(
 				'label'   => __( 'Vimeo URI', 'simple-social-icons' ),
 				'pattern' => $this->get_icon_markup( 'vimeo', __( 'Vimeo', 'simple-social-icons' ) ),
+			),
+			'whatsapp' => array(
+				'label'   => __( 'WhatsApp URI', 'simple-social-icons' ),
+				'pattern' => $this->get_icon_markup( 'whatsapp', __( 'WhatsApp', 'simple-social-icons' ) ),
 			),
 			'xing' => array(
 				'label'   => __( 'Xing URI', 'simple-social-icons' ),
